@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+
+  <defs>
+    <linearGradient id="panel" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#111B27" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#101823" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#5B8CFF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8CB1FF" stop-opacity="0.18"/>
+    </linearGradient>
+    <filter id="blur24" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+    <filter id="blur40" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+
+
+<rect width="512" height="512" fill="#0A0F17"/>
+
+  <ellipse cx="61.4" cy="92.2" rx="92.2" ry="143.4" fill="#5B8CFF" fill-opacity="0.28" filter="url(#blur40)"/>
+  <ellipse cx="430.1" cy="71.7" rx="81.9" ry="122.9" fill="#FFFFFF" fill-opacity="0.08" filter="url(#blur40)"/>
+  <ellipse cx="430.1" cy="399.4" rx="61.4" ry="92.2" fill="#5B8CFF" fill-opacity="0.16" filter="url(#blur40)"/>
+
+<g><line x1="0" y1="0" x2="0" y2="512" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="36" y1="0" x2="36" y2="512" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="72" y1="0" x2="72" y2="512" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="108" y1="0" x2="108" y2="512" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="144" y1="0" x2="144" y2="512" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="180" y1="0" x2="180" y2="512" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="216" y1="0" x2="216" y2="512" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="252" y1="0" x2="252" y2="512" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="288" y1="0" x2="288" y2="512" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="324" y1="0" x2="324" y2="512" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="360" y1="0" x2="360" y2="512" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="396" y1="0" x2="396" y2="512" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="432" y1="0" x2="432" y2="512" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="468" y1="0" x2="468" y2="512" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="504" y1="0" x2="504" y2="512" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="0" y1="0" x2="512" y2="0" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="0" y1="36" x2="512" y2="36" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="0" y1="72" x2="512" y2="72" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="0" y1="108" x2="512" y2="108" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="0" y1="144" x2="512" y2="144" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="0" y1="180" x2="512" y2="180" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="0" y1="216" x2="512" y2="216" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="0" y1="252" x2="512" y2="252" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="0" y1="288" x2="512" y2="288" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="0" y1="324" x2="512" y2="324" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="0" y1="360" x2="512" y2="360" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="0" y1="396" x2="512" y2="396" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="0" y1="432" x2="512" y2="432" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="0" y1="468" x2="512" y2="468" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+<line x1="0" y1="504" x2="512" y2="504" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/></g>
+
+  <rect x="44" y="44" width="424" height="424" rx="120" fill="url(#panel)" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="3"/>
+  
+  <rect x="128" y="128" width="256" height="256" rx="61" fill="#0E1624" stroke="#5B8CFF" stroke-opacity="0.55" stroke-width="5.1"/>
+  <rect x="128" y="128" width="256" height="256" rx="61" fill="url(#accentGlow)" fill-opacity="0.18"/>
+  <text x="256.0" y="281.6" fill="#EEF4FF" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="81.9" font-weight="700" text-anchor="middle">CJ</text>
+
+  <text x="256" y="430" fill="#9AA8BD" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="30" text-anchor="middle">CAJEER</text>
+</svg>

@@ -3,139 +3,314 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cajeer — Independent systems. Minimal by design.</title>
-  <meta name="description" content="Cajeer Team builds focused products and infrastructure. Cajeer 404 is the public edge — releases, notes, experiments, and community.">
+  <title>Cajeer — Open-source systems. Quiet by design.</title>
+  <meta name="description" content="Cajeer Team builds open-source software, developer tools, and focused infrastructure. Cajeer 404 is the public edge: releases, notes, experiments, and community.">
+  <meta name="theme-color" content="#0a0f17">
+  <meta property="og:title" content="Cajeer — Open-source systems. Quiet by design.">
+  <meta property="og:description" content="Open-source software, developer tools, focused infrastructure, and a low-noise public surface.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cajeer.com/">
+  <meta property="og:image" content="https://cajeer.com/og-home.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cajeer — Open-source systems. Quiet by design.">
+  <meta name="twitter:description" content="Open-source software, developer tools, focused infrastructure, and a low-noise public surface.">
+  <meta name="twitter:image" content="https://cajeer.com/og-home.png">
+  <link rel="canonical" href="https://cajeer.com/">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" href="favicon.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="header">
-    <div class="container nav">
-      <div class="brand">
-        <div class="brand-name">Cajeer</div>
-        <div class="brand-sub">Cajeer Team / Cajeer 404</div>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#top" aria-label="Cajeer home">
+        <span class="brand-mark" aria-hidden="true">CJ</span>
+        <span class="brand-copy">
+          <strong>Cajeer</strong>
+          <small>Cajeer Team / Cajeer 404</small>
+        </span>
+      </a>
+
+      <div class="nav-wrap">
+        <nav class="nav" aria-label="Primary">
+          <a href="#manifesto">Manifesto</a>
+          <a href="#focus">Focus</a>
+          <a href="#platforms">Platforms</a>
+        </nav>
+        <a class="btn btn-small btn-ghost" href="https://github.com/CajeerTeam">GitHub</a>
       </div>
-      <nav class="nav-links" aria-label="Primary">
-        <a href="#manifesto">Manifesto</a>
-        <a href="#community">Community</a>
-        <a href="#en-ru">EN/RU</a>
-      </nav>
     </div>
   </header>
 
-  <main>
+  <main id="top">
     <section class="hero">
       <div class="container hero-grid">
-        <div>
-          <div class="section-kicker">Independent by structure</div>
-          <h1>Cajeer</h1>
-          <p>Independent systems. Minimal by design. Cajeer Team builds focused products and infrastructure. Cajeer 404 is the public edge — releases, notes, experiments, and community.</p>
-          <div class="links">
-            <a class="link-pill" href="https://github.com/CajeerTeam">GitHub</a>
-            <a class="link-pill" href="https://docs.cajeer.ru/">Docs</a>
-            <a class="link-pill" href="https://t.me/cajeer">Telegram</a>
-            <a class="link-pill" href="https://discord.gg/E52DxpShQy">Discord</a>
+        <div class="fade-in">
+          <div class="eyebrow">Cajeer Team &amp; Cajeer 404</div>
+          <h1>Open-source systems.<br>Quiet by design.</h1>
+          <p class="lead">
+            Cajeer builds open-source software, developer tools, and focused infrastructure.
+            Cajeer 404 is the public edge: releases, notes, experiments, and community.
+          </p>
+
+          <div class="btns">
+            <a class="btn btn-primary" href="https://github.com/CajeerTeam">GitHub</a>
+            <a class="btn btn-secondary" href="https://docs.cajeer.com/">Docs</a>
+            <a class="btn btn-secondary" href="https://t.me/cajeer">Telegram</a>
+            <a class="btn btn-secondary" href="https://discord.gg/nsTKEUh2DB">Discord</a>
+          </div>
+
+          <p class="hero-note">
+            Minimal surface. Strong standards. No branding theater.
+          </p>
+        </div>
+
+        <div class="hero-stage fade-in">
+          <div class="hero-grid-lines" aria-hidden="true"></div>
+          <div class="console">
+            <div class="console-head">
+              <div class="dots" aria-hidden="true"><span></span><span></span><span></span></div>
+              <span>surface.map</span>
+            </div>
+
+            <div class="console-panel">
+              <div class="console-list">
+                <div class="console-row">
+                  <div class="console-key">mode</div>
+                  <div class="console-value">open-source software</div>
+                </div>
+                <div class="console-row">
+                  <div class="console-key">structure</div>
+                  <div class="console-value">team + public edge</div>
+                </div>
+                <div class="console-row">
+                  <div class="console-key">docs</div>
+                  <div class="console-value">docs.cajeer.com</div>
+                </div>
+                <div class="console-row">
+                  <div class="console-key">signal</div>
+                  <div class="console-value">precise, low-noise, durable</div>
+                </div>
+              </div>
+
+              <div class="mini-grid">
+                <div class="mini-card">
+                  <span>tone</span>
+                  <strong>direct</strong>
+                </div>
+                <div class="mini-card">
+                  <span>build</span>
+                  <strong>disciplined</strong>
+                </div>
+                <div class="mini-card">
+                  <span>release</span>
+                  <strong>readable</strong>
+                </div>
+                <div class="mini-card">
+                  <span>community</span>
+                  <strong>builder-first</strong>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div>
-          <div class="quote">Few products. Strict standards. No noise.</div>
-        </div>
       </div>
     </section>
 
-    <section id="manifesto" class="section">
+    <section id="manifesto" class="fade-in">
       <div class="container">
-        <div class="section-kicker">Manifesto</div>
-        <div class="grid">
-          <article class="card">
-            <div class="card-kicker">01</div>
-            <h3>Autonomy</h3>
-            <p>We build for control, independence, and long-term direction instead of short-term dependence on trend or platform.</p>
-          </article>
-          <article class="card">
-            <div class="card-kicker">02</div>
-            <h3>Minimalism</h3>
-            <p>Every visible element should justify itself. Fewer layers. Clearer decisions. Lower noise.</p>
-          </article>
-          <article class="card">
-            <div class="card-kicker">03</div>
-            <h3>Selectivity</h3>
-            <p>Not everything needs to be for everyone. The standard stays high. Access follows value.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="community" class="section">
-      <div class="container">
-        <div class="section-kicker">Structure</div>
-        <div class="grid">
-          <article class="card">
-            <div class="card-kicker">Cajeer Team</div>
-            <h3>The official contour</h3>
-            <p>The team, the systems, the products, the decisions, and the long-term direction.</p>
-          </article>
-          <article class="card">
-            <div class="card-kicker">Cajeer 404</div>
-            <h3>The public edge</h3>
-            <p>The blog, the releases, the notes, the experiments, and the community around the work.</p>
-          </article>
-          <article class="card">
-            <div class="card-kicker">Position</div>
-            <h3>Quiet luxury for builders</h3>
-            <p>No loud branding. No decorative complexity. Only signal, structure, and a controlled image.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="en-ru" class="section">
-      <div class="container">
-        <div class="section-kicker">Bilingual front page</div>
-        <div class="copy">
-          <div class="copy-block" lang="en">
-            <div class="lang-label">EN</div>
-            <h2>Cajeer</h2>
-            <p class="lead">Independent systems. Minimal by design.</p>
-            <p>Cajeer Team builds focused products and infrastructure. Cajeer 404 is the public edge — releases, notes, experiments, and community.</p>
-            <ul class="clean">
-              <li>Autonomy over dependency</li>
-              <li>Minimalism over excess</li>
-              <li>Standards over noise</li>
-              <li>Structure over hype</li>
-            </ul>
-            <p class="quote">Not for everyone. On purpose.</p>
+        <div class="section-head">
+          <div>
+            <div class="kicker">Manifesto</div>
+            <h2>A brand for people who prefer signal over noise.</h2>
           </div>
-          <div class="copy-block" lang="ru">
-            <div class="lang-label">RU</div>
-            <h2>Cajeer</h2>
-            <p class="lead">Независимые системы. Минимализм по умолчанию.</p>
-            <p>Cajeer Team создает сфокусированные продукты и инфраструктуру. Cajeer 404 — публичный контур: релизы, заметки, эксперименты и сообщество.</p>
-            <ul class="clean">
-              <li>Автономность вместо зависимости</li>
-              <li>Минимализм вместо перегруза</li>
-              <li>Стандарты вместо шума</li>
-              <li>Структура вместо хайпа</li>
-            </ul>
-            <p class="quote">Не для всех. И в этом смысл.</p>
+          <p class="section-copy">
+            The visual language stays restrained on purpose: dark surfaces, thin lines, cold blue accents,
+            strong spacing, and copy that says exactly what it means.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <article class="card">
+            <div class="meta">01 · Autonomy</div>
+            <h3>Build for control.</h3>
+            <p>We prefer systems that remain understandable, ownable, and maintainable over time.</p>
+          </article>
+          <article class="card">
+            <div class="meta">02 · Precision</div>
+            <h3>Keep the interface sharp.</h3>
+            <p>Short headlines, explicit nouns, limited ornament, readable structure.</p>
+          </article>
+          <article class="card">
+            <div class="meta">03 · Restraint</div>
+            <h3>Reject branding theater.</h3>
+            <p>No hype language, no decorative overload, no noise added just to look louder.</p>
+          </article>
+          <article class="card">
+            <div class="meta">04 · Durability</div>
+            <h3>Ship what can hold up.</h3>
+            <p>Open-source work should age well: clear docs, stable boundaries, honest release notes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="focus" class="fade-in">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="kicker">Focus</div>
+            <h2>Focused products. Selective public surface.</h2>
+          </div>
+          <p class="section-copy">
+            The portfolio stays intentionally narrow. Every public project should earn its place.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card project-link">
+            <div class="meta">Current public repository</div>
+            <h3>SafExpr</h3>
+            <p>A safe, minimalistic, type-safe expression engine for JavaScript and TypeScript.</p>
+            <div class="tag-list">
+              <span class="tag">TypeScript</span>
+              <span class="tag">safe runtime logic</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="meta">Lane 01</div>
+            <h3>Developer tools</h3>
+            <p>Utilities and libraries that reduce ambiguity, improve control, and stay readable under real use.</p>
+          </article>
+
+          <article class="card">
+            <div class="meta">Lane 02</div>
+            <h3>Documentation systems</h3>
+            <p>Docs should feel like part of the product, not a detached afterthought.</p>
+          </article>
+
+          <article class="card">
+            <div class="meta">Lane 03</div>
+            <h3>Community infrastructure</h3>
+            <p>Channels should route attention cleanly: announcements, notes, support, discussion.</p>
+          </article>
+
+          <article class="card">
+            <div class="meta">Team contour</div>
+            <h3>Cajeer Team</h3>
+            <p>The official structure behind products, standards, roadmap, and long-horizon decisions.</p>
+          </article>
+
+          <article class="card">
+            <div class="meta">Public edge</div>
+            <h3>Cajeer 404</h3>
+            <p>The outward layer for releases, experiments, notes, and community signal around the work.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="platforms" class="fade-in">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="kicker">Platforms</div>
+            <h2>One system. Different surfaces.</h2>
+          </div>
+          <p class="section-copy">
+            Every platform keeps the same posture: calm, technical, exact, and low-noise.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <a class="card channel-link" href="https://cajeer.com/">
+            <div class="meta">Website</div>
+            <h3>Front page</h3>
+            <p>The shortest, clearest public introduction to the team, the projects, and the direction.</p>
+          </a>
+
+          <a class="card channel-link" href="https://docs.cajeer.com/">
+            <div class="meta">GitBook</div>
+            <h3>Documentation</h3>
+            <p>Structured product knowledge, principles, architecture, and getting-started material.</p>
+          </a>
+
+          <a class="card channel-link" href="https://github.com/CajeerTeam">
+            <div class="meta">GitHub</div>
+            <h3>Source and releases</h3>
+            <p>The canonical code surface: repositories, issues, change history, and contribution context.</p>
+          </a>
+
+          <a class="card channel-link" href="https://t.me/cajeer">
+            <div class="meta">Telegram</div>
+            <h3>Broadcast channel</h3>
+            <p>Announcements, release notes, links, and short field notes from the public edge.</p>
+          </a>
+
+          <a class="card channel-link" href="https://t.me/cjrmeet">
+            <div class="meta">Telegram chat</div>
+            <h3>Discussion layer</h3>
+            <p>Replies, quick questions, community discussion, and feedback around ongoing work.</p>
+          </a>
+
+          <a class="card channel-link" href="https://discord.gg/nsTKEUh2DB">
+            <div class="meta">Discord</div>
+            <h3>Live engineering room</h3>
+            <p>Longer discussion, support, showcases, release follow-up, and contributor interaction.</p>
+          </a>
+        </div>
+
+        <div class="info-strip">
+          <div class="info">
+            <strong>Primary signal</strong>
+            <div>Open-source systems. Quiet by design.</div>
+          </div>
+          <div class="info">
+            <strong>Secondary signal</strong>
+            <div>Built with discipline. Shipped without theater.</div>
+          </div>
+          <div class="info">
+            <strong>Ordering</strong>
+            <div>GitHub → Docs → Telegram → Discord</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fade-in">
+      <div class="container">
+        <div class="callout cta">
+          <div>
+            <div class="kicker">Public links</div>
+            <h3>Stay close to the source.</h3>
+          </div>
+          <div class="btns">
+            <a class="btn btn-primary" href="https://github.com/CajeerTeam">GitHub</a>
+            <a class="btn btn-secondary" href="https://docs.cajeer.com/">Docs</a>
+            <a class="btn btn-secondary" href="https://t.me/cajeer">Telegram</a>
+            <a class="btn btn-secondary" href="https://discord.gg/nsTKEUh2DB">Discord</a>
           </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container footer-wrap">
-      <div>
-        <div class="footer-note">Cajeer Team / Cajeer 404</div>
-        <p>Autonomy. Minimalism. Controlled signal.</p>
-      </div>
-      <div class="links">
-        <a class="link-pill" href="https://github.com/CajeerTeam">GitHub</a>
-        <a class="link-pill" href="https://docs.cajeer.ru/">Docs</a>
-        <a class="link-pill" href="https://t.me/cajeer">Telegram</a>
-        <a class="link-pill" href="https://discord.gg/E52DxpShQy">Discord</a>
-      </div>
+  <footer>
+    <div class="container footer-copy">
+      <div>© 2026 Cajeer Team &amp; Cajeer 404 · Open-source systems · Quiet by design.</div>
+      <div>Built with discipline. Shipped without theater.</div>
     </div>
   </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      }
+    }, { threshold: 0.16 });
+
+    document.querySelectorAll('.fade-in').forEach((node) => observer.observe(node));
+  </script>
 </body>
 </html>
